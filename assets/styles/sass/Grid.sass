@@ -1,0 +1,25 @@
+@for $i from 1 through 16
+    .cols-#{$i}
+        width: $i*6.25%
+    
+    @media screen and ( max-width: map-get($xs,max) )
+        .cols-xs-#{$i}
+            width: $i*6.25%
+    
+    @media screen and ( max-width: map-get($sm,max) )
+        .cols-sm-#{$i}
+            width: $i*6.25%
+
+    @media screen and ( max-width: map-get($md,max) )
+        .cols-md-#{$i}
+            width: $i*6.25%
+
+    @media screen and ( max-width: map-get($lg,max) )
+        .cols-lg-#{$i}
+            width: $i*6.25%
+
+    @media screen and ( max-width: map-get($xl,max) )
+        .cols-xl-#{$i}
+            width: $i*6.25%
+    
+        
