@@ -741,6 +741,46 @@
   padding: 2.5em;
 }
 
+.pt-1 {
+  padding-top: 0.25em;
+}
+
+.pt-2 {
+  padding-top: 0.5em;
+}
+
+.pt-3 {
+  padding-top: 0.75em;
+}
+
+.pt-4 {
+  padding-top: 1em;
+}
+
+.pt-5 {
+  padding-top: 1.25em;
+}
+
+.pt-6 {
+  padding-top: 1.5em;
+}
+
+.pt-7 {
+  padding-top: 1.75em;
+}
+
+.pt-8 {
+  padding-top: 2em;
+}
+
+.pt-9 {
+  padding-top: 2.25em;
+}
+
+.pt-10 {
+  padding-top: 2.5em;
+}
+
 .pr-1 {
   padding-right: 0.25em;
 }
@@ -909,6 +949,46 @@
 
 .m-10 {
   margin: 2.5em;
+}
+
+.mt-1 {
+  margin-top: 0.25em;
+}
+
+.mt-2 {
+  margin-top: 0.5em;
+}
+
+.mt-3 {
+  margin-top: 0.75em;
+}
+
+.mt-4 {
+  margin-top: 1em;
+}
+
+.mt-5 {
+  margin-top: 1.25em;
+}
+
+.mt-6 {
+  margin-top: 1.5em;
+}
+
+.mt-7 {
+  margin-top: 1.75em;
+}
+
+.mt-8 {
+  margin-top: 2em;
+}
+
+.mt-9 {
+  margin-top: 2.25em;
+}
+
+.mt-10 {
+  margin-top: 2.5em;
 }
 
 .mr-1 {
@@ -2166,6 +2246,22 @@ body {
   top: 100%;
   left: 100%;
   transform: translate(-50%, -100%);
+}
+
+.diagonal-slowmotion {
+  animation-name: d-slowmotion;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes d-slowmotion {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(10deg);
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
