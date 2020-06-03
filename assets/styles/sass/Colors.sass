@@ -1,0 +1,63 @@
+@import ../css/fonts.css
+$family: Aller, Arial, Helvetica, sans-serif
+body
+    font-family: $family
+    font-size:16px
+
+$mustard: rgb(253,208,72)
+$black: rgb(56,56,56)
+$blue: rgb(73,140,243)
+$pink: rgb(252,88,95)
+$gray: rgb(243,243,243)
+
+.bgc-yellow
+    background-color: $mustard
+.bgc-blue
+    background-color: $blue
+.bgc-pink
+    background-color: $black
+.bgc-black
+    background-color: $black
+.bgc-gray
+    background-color: $gray
+
+
+.yellow
+    color: $mustard
+.blue
+    color: $blue
+.pink
+    color: $pink
+.black
+    color: $black
+
+.b
+    font-weight: bold
+.i
+    font-style: italic
+
+
+.button-yellow
+    @extend .yellow
+    @extend .b
+    font-size: 1em
+
+.info
+    @extend .bgc-gray
+
+    h2 
+        font-size: 2.625em
+        width: 90%
+        display: flex
+        text-align: justify
+        align-items: center
+        justify-content: start
+        margin:5%  auto
+        text-align: start
+        padding: 1em
+    p
+        font-size: 25px 
+        text-align: justify
+        width: 90%
+        padding: 10px
+        margin: 10px auto
