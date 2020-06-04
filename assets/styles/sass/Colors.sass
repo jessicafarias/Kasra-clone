@@ -37,27 +37,47 @@ $gray: rgb(243,243,243)
     font-style: italic
 
 
-.button-yellow
-    @extend .yellow
-    @extend .b
-    font-size: 1em
+.paragraph
+    text-align: justify
+    width: 90%
+    padding: 1em
+    margin:5%  auto
+
+.header
+        display: flex
+        text-align: justify
+        align-items: center
+        justify-content: start
+        text-align: start
 
 .info
     @extend .bgc-gray
 
     h2 
         font-size: 2.625em
-        width: 90%
-        display: flex
-        text-align: justify
-        align-items: center
-        justify-content: start
-        margin:5%  auto
-        text-align: start
-        padding: 1em
+        @extend .paragraph
+        @extend .header
+
     p
         font-size: 25px 
-        text-align: justify
-        width: 90%
-        padding: 10px
-        margin: 10px auto
+        @extend .paragraph
+
+.info-lg
+    h3
+        font-size: 2em
+        @extend .paragraph
+        @extend .header
+    p
+        font-size: 1.31em
+        @extend .paragraph
+
+.info-video
+    h2
+        font-size: 1.75em
+        @extend .paragraph
+        @extend .header
+        color: white
+    p
+        font-size: 1em
+        @extend .paragraph
+        color: white
