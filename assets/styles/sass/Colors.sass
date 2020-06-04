@@ -3,6 +3,7 @@ $family: Aller, Arial, Helvetica, sans-serif
 body
     font-family: $family
     font-size:16px
+    overflow-x: hidden
 
 $mustard: rgb(253,208,72)
 $black: rgb(56,56,56)
@@ -18,6 +19,7 @@ $gray: rgb(243,243,243)
     background-color: $black
 .bgc-black
     background-color: $black
+    color: white
 .bgc-gray
     background-color: $gray
 
@@ -81,3 +83,15 @@ $gray: rgb(243,243,243)
         font-size: 1em
         @extend .paragraph
         color: white
+
+.questions
+    h5
+        font-size: 2.876em
+        @extend .paragraph
+        @extend .header
+
+    p
+        @extend .header
+        background: white
+        font-size: 1.625em
+        margin-bottom: 5px
