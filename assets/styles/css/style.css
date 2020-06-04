@@ -1559,6 +1559,7 @@ body {
 
 .bgc-yellow, .btton-yellow-sm, .btton-yellow-md, .button-yellow-lg {
   background-color: #fdd048;
+  color: #383838;
 }
 
 .bgc-blue {
@@ -1578,6 +1579,50 @@ body {
   background-color: #f3f3f3;
 }
 
+@media screen and (max-width: 576pxpx) and (min-width: 3px) {
+  .bgc-xs-yellow {
+    background-color: #fdd048;
+    color: #383838;
+  }
+
+  .bgc-xs-black {
+    background-color: #383838;
+    color: white;
+  }
+}
+@media screen and (max-width: 768px) and (min-width: 3px) {
+  .bgc-sm-yellow {
+    background-color: #fdd048;
+    color: #383838;
+  }
+
+  .bgc-sm-black {
+    background-color: #383838;
+    color: white;
+  }
+}
+@media screen and (max-width: 992px) and (min-width: 768px) {
+  .bgc-md-yellow {
+    background-color: #fdd048;
+    color: #383838;
+  }
+
+  .bgc-md-black {
+    background-color: #383838;
+    color: white;
+  }
+}
+@media screen and (max-width: 1200px) and (min-width: 992px) {
+  .bgc-lg-yellow {
+    background-color: #fdd048;
+    color: #383838;
+  }
+
+  .bgc-lg-black {
+    background-color: #383838;
+    color: white;
+  }
+}
 .yellow {
   color: #fdd048;
 }
