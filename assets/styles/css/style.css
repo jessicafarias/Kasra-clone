@@ -1552,6 +1552,28 @@
   padding: 7px;
 }
 
+@media screen and (max-width: 768px) and (min-width: 3px) {
+  .navbar {
+    display: flex;
+    flex-flow: column wrap-reverse;
+    width: 80%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+  .navbar .container {
+    display: flex;
+    flex-flow: row wrap-reverse;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  .navbar .item {
+    margin: 1px;
+    padding: 10px;
+    border: 2px dotted black;
+  }
+}
 body {
   font-family: Aller, Arial, Helvetica, sans-serif;
   overflow-x: hidden;
