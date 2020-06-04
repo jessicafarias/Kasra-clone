@@ -11,3 +11,32 @@
 
   to 
       transform: rotate(10deg)
+
+.updown-slowmotion
+  animation-name: updown-slowmotion
+  animation-duration: 2s
+  animation-iteration-count: infinite
+  animation-direction: alternate
+
+  @keyframes d-slowmotion
+  from 
+      transform: rotate(10deg)
+
+  to 
+      transform: rotate(10deg)
+
+
+.link-full
+  a
+    background-image: url(../../images/Back-blue.png)
+    background-size: 0% 100%
+    background-repeat: no-repeat
+    transition: background-size 0.2s
+    color: white
+    border: 1px dotted white
+    font-size: 1.15em
+  
+  a:hover 
+    background-size: 100% 100%
+    color: white
+    
