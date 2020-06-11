@@ -1,4 +1,4 @@
-# Bootstrap project
+# Sass project
 
 > This project is a copy of the kasradesign website [website](https://www.kasradesign.com/)
 
