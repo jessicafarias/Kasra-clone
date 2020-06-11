@@ -1,0 +1,130 @@
+@import ../css/fonts.css
+$family: Aller, Arial, Helvetica, sans-serif
+body
+    font-family: $family
+    overflow-x: hidden
+         
+
+$mustard: rgb(253,208,72)
+$black: rgb(56,56,56)
+$blue: rgb(73,140,243)
+$pink: rgb(252,88,95)
+$gray: rgb(243,243,243)
+
+.bgc-yellow
+    background-color: $mustard
+    color: $black
+.bgc-blue
+    background-color: $blue
+.bgc-pink
+    background-color: $black
+.bgc-black
+    background-color: $black
+    color: white
+.bgc-gray
+    background-color: $gray
+
+@media screen and ( max-width: map-get($xs,max) ) and ( min-width: map-get($xs,min))
+    .bgc-xs-yellow
+        background-color: $mustard
+        color: $black
+    .bgc-xs-black
+        background-color: $black
+        color: white
+    
+@media screen and ( max-width: map-get($sm,max) ) and ( min-width: map-get($sm,min))
+    .bgc-sm-yellow
+        background-color: $mustard
+        color: $black
+    .bgc-sm-black
+        background-color: $black
+        color: white
+        
+
+@media screen and ( max-width: map-get($md,max) ) and ( min-width: map-get($md,min))
+    .bgc-md-yellow
+        background-color: $mustard
+        color: $black
+    .bgc-md-black
+        background-color: $black
+        color: white
+
+@media screen and ( max-width: map-get($lg,max) ) and ( min-width: map-get($lg,min))
+    .bgc-lg-yellow
+        background-color: $mustard
+        color: $black
+    .bgc-lg-black
+        background-color: $black
+        color: white
+
+.yellow
+    color: $mustard
+.blue
+    color: $blue
+.pink
+    color: $pink
+.black
+    color: $black
+
+.b
+    font-weight: bold
+.i
+    font-style: italic
+
+
+.paragraph
+    text-align: justify
+    width: 90%
+    padding: 1em
+    margin:5%  auto
+
+.header
+        display: flex
+        text-align: justify
+        align-items: center
+        justify-content: start
+        text-align: start
+
+.info
+    @extend .bgc-gray
+
+    h2 
+        font-size: 2.625em
+        @extend .paragraph
+        @extend .header
+
+    p
+        font-size: 1.562em
+        @extend .paragraph
+
+.info-lg
+    h3
+        font-size: 2rem
+        @extend .paragraph
+        @extend .header
+    p
+        font-size: 1.31rem
+        @extend .paragraph
+
+.info-video
+    h2
+        font-size: 1.75rem
+        @extend .paragraph
+        @extend .header
+        color: white
+    p
+        font-size: 1rem
+        @extend .paragraph
+        color: white
+
+.questions
+    h5
+        font-size: 2.876rem
+        @extend .paragraph
+        @extend .header
+
+    p
+        @extend .header
+        background: white
+        font-size: 1.625rem
+        margin-bottom: 5px
