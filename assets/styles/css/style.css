@@ -2767,37 +2767,24 @@ body {
   display: none;
   visibility: none;
 }
-@media (max-width: 2300px) and (min-width: 1024px) {
+@media (max-width: 1024px) and (min-width: 768px) {
   .display-0011 {
     display: flex;
   }
 }
-@media (max-width: 2300px) and (min-width: 1200px) {
+@media (max-width: 2300px) and (min-width: 1024px) {
   .display-0011 {
     display: flex;
   }
 }
 
 /*CUATRO*/
-@media screen and (max-width: 576pxpx) and (min-width: 3px) {
-  .display-0100 {
-    display: none;
-  }
+.display-0100 {
+  display: none;
 }
-@media screen and (max-width: 768px) and (min-width: 3px) {
+@media screen and (max-width: 576pxpx) and (min-width: 3px) {
   .display-0100 {
     display: block;
-  }
-}
-@media screen and (max-width: 1024px) and (min-width: 768px) {
-  .display-0100 {
-    display: none;
-    display: none;
-  }
-}
-@media screen and (max-width: 576pxpx) and (min-width: 3px) {
-  .display-0100 {
-    display: none;
   }
 }
 @media screen and (max-width: 768px) and (min-width: 3px) {
@@ -2812,7 +2799,7 @@ body {
 }
 @media screen and (max-width: 2300px) and (min-width: 1024px) {
   .display-0100 {
-    display: block;
+    display: none;
   }
 }
 

@@ -31,24 +31,16 @@
     display: none
     visibility: none
 
-    @media ( max-width: map-get($lg,max) ) and ( min-width: map-get($lg,min))
+    @media ( max-width: map-get($md,max) ) and ( min-width: map-get($md,min))
         display: flex
-    @media ( max-width: map-get($xl,max) ) and ( min-width: map-get($xl,min))
+    @media ( max-width: map-get($lg,max) ) and ( min-width: map-get($lg,min))
         display: flex
 /*CUATRO*/
 .display-0100
-    @media screen and ( max-width: map-get($xs,max) ) and ( min-width: map-get($xs,min))
-        display: none
+    display: none
     
-    @media screen and ( max-width: map-get($sm,max) ) and ( min-width: map-get($sm,min))
-        display: block
-
-    @media screen and ( max-width: map-get($md,max) ) and ( min-width: map-get($md,min))
-        display: none
-
-        display: none
     @media screen and ( max-width: map-get($xs,max) ) and ( min-width: map-get($xs,min))
-        display: none
+        display: block
     
     @media screen and ( max-width: map-get($sm,max) ) and ( min-width: map-get($sm,min))
         display: block
@@ -57,7 +49,7 @@
         display: none
 
     @media screen and ( max-width: map-get($lg,max) ) and ( min-width: map-get($lg,min))
-        display: block
+        display: none
 
 /*SEIS*/
 .display-0110
