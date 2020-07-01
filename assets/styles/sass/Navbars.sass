@@ -1,3 +1,57 @@
+
+.link-full 
+  a 
+    background-image: url(../../images/Back-blue.png)
+    background-size: 0% 100%
+    background-repeat: no-repeat
+    transition: background-size 0.2s
+    color: white
+    border: 1px dotted white
+    font-size: 1.15em
+  
+
+  a:hover 
+    background-size: 100% 100%
+    color: white
+.list
+    h5
+        font-size: 23px
+        font-weight: bold
+    
+    ul li 
+        font-size: 1.1875em
+        padding: 10px
+        display: flex
+        align-items: start
+    
+    
+.button-yellow-lg
+    @extend .bgc-yellow
+    @extend .b
+    font-size: 1.375em
+
+.button-blue-lg
+    @extend .bgc-blue
+    @extend .b
+    font-size: 1.375em
+
+.btton-yellow-md
+    @extend .bgc-yellow
+    @extend .b
+    font-size: 1.2em
+
+.btton-yellow-sm
+    @extend .bgc-yellow
+    @extend .b
+    font-size: 1em
+
+.form
+    display: flex
+    flex-direction: column
+    .item
+        width: 150px
+        height: 20px
+
 .navbar 
     display: flex
     flex-flow: row wrap
@@ -11,7 +65,6 @@
         align-items: center
 
     .item
-        @extend .link-full
         a
             color: black!important
             margin: 10px

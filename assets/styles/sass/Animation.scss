@@ -1,0 +1,33 @@
+.diagonal-slowmotion {
+  animation-name: d-slowmotion;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes d-slowmotion {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(10deg);
+  }
+}
+
+.updown-slowmotion {
+  animation-name: upd-slowmotion;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes upd-slowmotion {
+  from {
+    transform: translateY(20px);
+  }
+
+  to {
+    transform: translateY(40px);
+  }
+}
